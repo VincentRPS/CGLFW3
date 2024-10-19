@@ -49,7 +49,7 @@ sources += [
 ]
 #endif
 
-let package = Package(
+let package: Package = Package(
     name: "CGLFW3",
     products: [
         .library(name: "CGLFW3", targets: ["CGLFW3"])
